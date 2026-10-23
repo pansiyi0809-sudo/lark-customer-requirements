@@ -1,0 +1,4 @@
+interface:
+  display_name: "客户需求登记"
+  short_description: "从录音或转写提取多条需求，确认后登记到飞书多维表格"
+  default_prompt: "用 $lark-customer-requirements 整理这份客户沟通录音，先给我逐条预览，等我确认后再写入飞书。"

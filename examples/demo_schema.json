@@ -1,0 +1,182 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "fields": [
+      {
+        "name": "子中心",
+        "type": "select",
+        "multiple": false,
+        "options": [
+          {
+            "name": "示例中心"
+          }
+        ]
+      },
+      {
+        "name": "功能名称",
+        "type": "text"
+      },
+      {
+        "name": "功能描述",
+        "type": "text"
+      },
+      {
+        "name": "进展",
+        "type": "select",
+        "multiple": false,
+        "options": [
+          {
+            "name": "待评估"
+          }
+        ]
+      },
+      {
+        "name": "优先级",
+        "type": "select",
+        "multiple": false,
+        "options": [
+          {
+            "name": "P1"
+          }
+        ]
+      },
+      {
+        "name": "产品负责人",
+        "type": "select",
+        "multiple": true,
+        "options": [
+          {
+            "name": "示例负责人"
+          }
+        ]
+      },
+      {
+        "name": "研发负责人",
+        "type": "select",
+        "multiple": true,
+        "options": [
+          {
+            "name": "示例研发"
+          }
+        ]
+      },
+      {
+        "name": "测试负责人",
+        "type": "select",
+        "multiple": false,
+        "options": [
+          {
+            "name": "示例测试"
+          }
+        ]
+      },
+      {
+        "name": "计划提测时间",
+        "type": "datetime"
+      },
+      {
+        "name": "计划上线时间",
+        "type": "datetime"
+      },
+      {
+        "name": "实际提测时间",
+        "type": "datetime"
+      },
+      {
+        "name": "实际上线时间",
+        "type": "datetime"
+      },
+      {
+        "name": "上线版本",
+        "type": "select",
+        "multiple": true,
+        "options": [
+          {
+            "name": "v1.0"
+          }
+        ]
+      },
+      {
+        "name": "测试环境走查",
+        "type": "select",
+        "multiple": false,
+        "options": [
+          {
+            "name": "待走查"
+          }
+        ]
+      },
+      {
+        "name": "生产环境走查",
+        "type": "select",
+        "multiple": false,
+        "options": [
+          {
+            "name": "待走查"
+          }
+        ]
+      },
+      {
+        "name": "详情备注",
+        "type": "text"
+      },
+      {
+        "name": "需求背景",
+        "type": "text"
+      },
+      {
+        "name": "需求来源",
+        "type": "select",
+        "multiple": true,
+        "options": [
+          {
+            "name": "业务需求"
+          }
+        ]
+      },
+      {
+        "name": "临时需求",
+        "type": "select",
+        "multiple": false,
+        "options": [
+          {
+            "name": "是"
+          },
+          {
+            "name": "否"
+          }
+        ]
+      },
+      {
+        "name": "附件",
+        "type": "attachment"
+      },
+      {
+        "name": "需求ID",
+        "type": "formula"
+      },
+      {
+        "name": "父记录",
+        "type": "link"
+      },
+      {
+        "name": "本次是否走查",
+        "type": "select",
+        "multiple": false,
+        "options": [
+          {
+            "name": "是"
+          },
+          {
+            "name": "否"
+          }
+        ]
+      },
+      {
+        "name": "情况说明",
+        "type": "text"
+      }
+    ]
+  }
+}
