@@ -12,7 +12,13 @@
 
 ## 第一次使用
 
-1. 把仓库克隆到 `~/.codex/skills/lark-customer-requirements`，重新打开 Codex。已安装同名 Skill 时，先保留旧版备份，再用克隆目录替换。
+1. 把仓库克隆到 `~/.codex/skills/lark-customer-requirements`，重新打开 Codex。仓库发布后，将下例中的地址替换为本项目的 GitHub 地址：
+
+   ```bash
+   git clone https://github.com/<你的用户名>/lark-customer-requirements.git ~/.codex/skills/lark-customer-requirements
+   ```
+
+   已安装同名 Skill 时，先保留旧版备份，再用克隆目录替换。
 2. 确保本机可运行 `lark-cli --help`，且 Codex 可使用 `lark-base`、`lark-shared` 等飞书 Skill。此仓库不包含飞书连接器或任何账号凭证；没有连接器时仍可整理和预览，但无法自动登记。
 3. 向有权限的同事取得**目标飞书多维表格链接**，在 Skill 目录运行：
 
