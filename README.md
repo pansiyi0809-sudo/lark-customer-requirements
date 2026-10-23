@@ -12,10 +12,10 @@
 
 ## 第一次使用
 
-1. 把仓库克隆到 `~/.codex/skills/lark-customer-requirements`，重新打开 Codex。仓库发布后，将下例中的地址替换为本项目的 GitHub 地址：
+1. 把仓库克隆到 `~/.codex/skills/lark-customer-requirements`，重新打开 Codex：
 
    ```bash
-   git clone https://github.com/<你的用户名>/lark-customer-requirements.git ~/.codex/skills/lark-customer-requirements
+   git clone https://github.com/pansiyi0809-sudo/lark-customer-requirements.git ~/.codex/skills/lark-customer-requirements
    ```
 
    已安装同名 Skill 时，先保留旧版备份，再用克隆目录替换。
